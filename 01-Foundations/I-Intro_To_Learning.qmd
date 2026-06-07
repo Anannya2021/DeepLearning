@@ -26,13 +26,7 @@ Imagine you find an ancient mathematics text, with marvelous looking
 proofs, but there is a symbol you do not recognize, "$\star$\". You see
 it being used here and there in equations, and you note down examples of
 its behavior: 
-$$\begin{aligned}
-    2 \star 3 &= 36\nonumber \\
-    7 \star 1 &= 49\nonumber \\
-    5 \star 2 &= 100\nonumber \\
-    2 \star 2 &= 16\nonumber
-\end{aligned}
-$$ 
+$$\begin{aligned} 2 \star 3 &= 36\nonumber \\  7 \star 1 &= 49\nonumber \\ 5 \star 2 &= 100\nonumber \\ 2 \star 2 &= 16\nonumber\end{aligned}$$ 
 
 What do you think $\star$ represents? What function is it computing? Do you have it? Let's test your answer: what is the value of $3 \star 5$? (The answer is in the figure below.)
 
