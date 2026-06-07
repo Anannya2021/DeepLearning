@@ -1,0 +1,1 @@
+A key idea of neural nets is to decompose computation into a series of layers. In this chapter we will think of layers as modular blocks that can be chained together into a computation graph.
