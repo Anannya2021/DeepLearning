@@ -1,10 +1,10 @@
-# Foundations of Learning {#sec-foundations-of-learning}
+# Foundations 
 
 Learning is one of the key components of a computer vision system. In these chapters, we cover the foundations of machine learning from a general perspective but explore examples using vision problems.
 
 ## Outline
 
-- **Intro To Learning** introduces the basic principles of machine learning.
+- **Intro To Learning** introduces the basic principles of machine learning. Learning is one of the key components of a computer vision system. In these chapters, we cover the foundations of machine learning from a general perspective but explore examples using vision problems.
 
 - **Gradient-Based Learning Algorithm** describes how to learn the parameters that fit a model to data.
 
