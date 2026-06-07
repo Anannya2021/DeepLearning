@@ -1,0 +1,43 @@
+# Introduction to Learning 
+
+## Introduction
+
+The goal of learning is to extract lessons from past experience in order
+to solve future problems. Typically, this involves searching for an
+algorithm that solves past instances of the problem. This algorithm can
+then be applied to future instances of the problem.
+
+:::{.column-margin}
+Past and future do not necessarily refer to the calendar date; instead they refer to what the \textit{learner} has previously seen and what the learner will see next.
+:::
+Learning usually consists of two phases: the **training**  phase, where we search for
+an algorithm that performs well on past instances of the problem
+(training data), and the **testing** phase, where we deploy our learned algorithm to
+solve new instances of the problem.
+
+## Learning from Examples
+
+
+:::{.column-margin}
+Learning from examples is also called **supervised learning**.
+:::
+
+Imagine you find an ancient mathematics text, with marvelous looking
+proofs, but there is a symbol you do not recognize, "$\star$\". You see
+it being used here and there in equations, and you note down examples of
+its behavior: 
+$$\begin{aligned}
+    2 \star 3 &= 36\nonumber \\
+    7 \star 1 &= 49\nonumber \\
+    5 \star 2 &= 100\nonumber \\
+    2 \star 2 &= 16\nonumber
+\end{aligned}
+$$ 
+
+What do you think $\star$ represents? What function is it computing? Do you have it? Let's test your answer: what is the value of $3 \star 5$? (The answer is in the figure below.)
+
+It may not seem like it, but you just performed learning! You *learned* what $\star$ does by looking at examples. In fact, @fig-star_symbol_learning shows what you did:
+
+![How your brain may have solved the star problem.](./figures/intro_to_learning/star_symbol_learning.png){#fig-star_symbol_learning width="75%"}
+
+Nice job!
