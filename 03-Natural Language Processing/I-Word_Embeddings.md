@@ -1,15 +1,15 @@
-# Neural Networks {#sec-neural_nets}
+# Neural Networks 
 
 ## Introduction
 
 Neural networks are functions loosely modeled on the brain. In the
 brain, we have billions of neurons that connect to one another. Each
 neuron can be thought of as a node in a graph, and the edges are the
-connections from one neuron to the next (@fig-neural_nets-fig1_net). The
+connections from one neuron to the next. The
 edges are directed; electrical signals propagate in just one direction
 along the wires in the brain.
 
-![](images/transformers.jpg){width="95%"}
+![](images/transformers.jpg)
 
 Outgoing edges are called axons and incoming edges are called dendrites.
 A neuron fires, sending a pulse down its axon, when the incoming pulses,
