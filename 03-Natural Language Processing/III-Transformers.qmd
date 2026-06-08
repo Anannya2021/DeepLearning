@@ -1,0 +1,14 @@
+## How Transformers Work
+
+The key idea:
+
+1. Tokenize and Embed ~ Input text is split into tokens and converted into vectors.
+
+2. Self-Attention ~ Each token looks at all other tokens to understand context and relationships.
+
+3. Feed Forward ~ Information is processed through neural networks to extract higher level repreesntations.
+
+4. Generate Output ~ The decoder generates one token at a time, focusing on relevant context.
+
+The gist of this is captured in ![](./images/transformers.jpg){width="95%"}
+
