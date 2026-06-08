@@ -43,3 +43,22 @@ A consequence of removing recurrence from the architecture is that the transform
 ## Why Transformers Scale So Well 
 
 The key is that transformers are genuinely parallelizable in ways that recurrent models were not. During training, a transformer can process the entire sequence and compute all attention weights in parallel. Every attention head, every layer, and every token position can be computed simultaneously on different parts of the GPU hardware. This means that adding more compute, whether more GPUs or more powerful chips, directly translates into being able to train larger models on more data in reasonable time.
+
+## Quick Questions
+
+1.What is the transformer architecture and why does it matter?
+
+The transformer is a neural network architecture introduced by Google researchers in 2017. It replaced recurrent networks with self-attention mechanisms, enabling faster training, better handling of long-range dependencies, and massive scalability. It matters because virtually every major AI language system today, from GPT-4 to Gemini to Claude, is built on this foundation.
+
+2. How does the attention mechanism work in transformers?
+
+Self-attention allows every token in a sequence to compute a weighted relationship with every other token. For each token, the model produces query, key, and value vectors. The query from one token is compared against the keys of all other tokens to produce attention weights, which determine how much each token influences the current token’s representation. 
+
+3. What came before the transformer architecture?
+
+Before transformers, the dominant approach to sequence modeling was recurrent neural networks, particularly LSTMs. These processed sequences step by step and struggled with long-range dependencies due to the vanishing gradient problem. Attention mechanisms were added to RNNs as improvements, but the full transformer architecture removed recurrence entirely.
+
+4. Why did transformers outperform RNNs?
+
+Transformers outperformed RNNs for three core reasons: they process all tokens in parallel rather than sequentially, enabling far more efficient use of modern GPU and TPU hardware; they can directly relate any two positions in a sequence regardless of distance; and they scale more predictably with more data and larger model parameters, following well-defined scaling laws.
+
