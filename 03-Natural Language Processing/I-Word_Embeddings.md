@@ -9,7 +9,7 @@ connections from one neuron to the next (@fig-neural_nets-fig1_net). The
 edges are directed; electrical signals propagate in just one direction
 along the wires in the brain.
 
-![](images/NeuralNet.jpg){width="30%"}
+![](images/transformers.jpg){width="95%"}
 
 Outgoing edges are called axons and incoming edges are called dendrites.
 A neuron fires, sending a pulse down its axon, when the incoming pulses,
