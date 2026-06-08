@@ -1,3 +1,9 @@
+## Introduction
+
+In transformer architecture, recurrence is abandoned completely. Parallel processing takes over processing tokens one by one in sequence. Entire sequence of texts are processed simultaneously using attention mechanisms. This design made them better at capturing long-range relationships in language and highly scalable powering LLMs such as GPT-4, Claude and Gemini.
+
+![](images/transformers.jpg)
+
 ## How Transformers Work
 
 The key idea:
